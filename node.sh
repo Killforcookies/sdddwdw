@@ -23,5 +23,5 @@ nohup ./node \
   --state-pruning archive \
   --no-private-ipv4 \
   --validator \
-  --name "INSERT_YOUR_ID"
+  --name "INSERT_YOUR_ID" \
   >> node.log 2>&1 &
