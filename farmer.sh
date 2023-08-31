@@ -21,4 +21,4 @@ PATH_TO_PLOT=
 PLOT_SIZE=
 # 钱包地址
 WALLET_ADDRESS=
-nohup ./farmer --farm path=${PATH_TO_PLOT},size=${PLOT_SIZE} farm --reward-address ${WALLET_ADDRESS} >> farmer.log 2>&1 &
+nohup ./farmer farm --reward-address ${WALLET_ADDRESS} path=${PATH_TO_PLOT},size=${PLOT_SIZE} >> farmer.log 2>&1 &
